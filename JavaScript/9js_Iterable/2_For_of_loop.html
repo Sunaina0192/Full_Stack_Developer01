@@ -1,0 +1,33 @@
+
+<!-- for...of — Looping Through a String ✍️
+
+Strings are also iterable — meaning we can go through each letter! -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>for...of loop with String</h2>
+    <p id="demo"></p>
+    <script>
+        let word="Hello";
+        let output="";
+        for(let x of word){
+            output +=x;
+        }
+        
+        
+        const fruits =["Apple","Banana","Grapes"];
+        for(let x of fruits){
+            console.log(x);
+        }
+        document.getElementById("demo").innerHTML=fruits;
+        // console.log(output);
+        document.getElementById("demo").innerHTML=output;
+    </script>
+</body>
+</html>
