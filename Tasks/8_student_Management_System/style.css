@@ -1,0 +1,68 @@
+/* 🌟 Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 🌈 Body Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #c7ecee, #74b9ff);
+  min-height: 100vh;
+  color: #2d3436;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+/* 🧾 Page Title */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  color: #0a3d62;
+  text-shadow: 1px 1px 2px #dff9fb;
+  border-bottom: 3px solid #0a3d62;
+  padding-bottom: 8px;
+}
+
+/* 📜 Results Container */
+#demo {
+  background-color: #ffffff;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #2f3640;
+}
+
+/* ✅ Pass / ❌ Fail colors */
+#demo span.pass {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+#demo span.fail {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* ⚠️ Error styling */
+#demo .error {
+  color: #e67e22;
+  font-style: italic;
+  margin: 8px 0;
+  display: block;
+}
+
+/* 👩‍💻 Student result entry */
+#demo .student {
+  border-bottom: 1px solid #dcdde1;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
